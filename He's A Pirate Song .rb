@@ -75,4 +75,4 @@ sleep 0.5
 play :D4, amp: 3
 sleep 1
 
-
+sample :bd_boom, amp: 3
