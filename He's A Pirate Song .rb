@@ -102,7 +102,7 @@ sleep 4
 
 sample Outro
 
-sleep 85
+sleep 83
 
 8.times do
   sample :bd_boom, amp: num
