@@ -4,6 +4,7 @@
 #Intro Sample: https://www.youtube.com/watch?v=pNksCAN9IcA
 #Outro Sample: https://www.youtube.com/watch?v=nY8T0RMs_wU
 #Throwinghat Sample: https://www.youtube.com/watch?v=mCDA-m-TQdU
+#Ending Sample: https://www.youtube.com/watch?v=_5MQabnB5No
 #Oceansound sampe: https://www.youtube.com/watch?v=kxX039DmeEw
 
 
@@ -19,7 +20,7 @@ Intro = "C:/Users/tiana_agbekoh/Downloads/JackSparrowDishonest.mp3"
 Outro = "C:/Users/tiana_agbekoh/Downloads/drinkupYoHO.mp3"
 Ocean = "C:/Users/tiana_agbekoh/Downloads/please.mp3"
 Throwinghat = "C:/Users/tiana_agbekoh/Downloads/trowinghat.mp3"
-
+Ending = "C:/Users/tiana_agbekoh/Downloads/ending.mp3"
 
 
 
@@ -183,7 +184,8 @@ sleep 44
 
 sample Outro, amp: 3
 sleep 6
-sample :bd_boom, amp: 5
+sample Ending, amp: 3
+
 
 
 
