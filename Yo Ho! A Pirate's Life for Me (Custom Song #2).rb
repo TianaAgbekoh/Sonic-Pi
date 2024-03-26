@@ -183,8 +183,8 @@ sample Throwinghat, amp: 5
 sleep 44
 
 sample Outro, amp: 3
-sleep 6
-sample Ending, amp: 3
+sleep 5
+sample Ending, amp: 2
 
 
 
