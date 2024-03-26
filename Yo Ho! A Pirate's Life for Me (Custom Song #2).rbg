@@ -3,8 +3,8 @@
 #Sheet Music: https://musescore.com/onnikoivisto/yo-ho
 #Intro Sample: https://www.youtube.com/watch?v=pNksCAN9IcA
 #Outro Sample: https://www.youtube.com/watch?v=nY8T0RMs_wU
-#Sample 3: https://www.youtube.com/watch?v=mCDA-m-TQdU
-#Oceansound sample: https://www.youtube.com/watch?v=kxX039DmeEw
+#Throwinghat Sample: https://www.youtube.com/watch?v=mCDA-m-TQdU
+#Oceansound sampe: https://www.youtube.com/watch?v=kxX039DmeEw
 
 
 use_bpm 190
@@ -177,15 +177,13 @@ sample Ocean, amp: 0.5
   
 end
 
-sleep 1
-
 sample Throwinghat, amp: 5
-sleep 30
 
-sample Outro, amp: 2
-sleep 5
-sample :bd_boom, amp: 3
+sleep 44
 
+sample Outro, amp: 3
+sleep 6
+sample :bd_boom, amp: 5
 
 
 
