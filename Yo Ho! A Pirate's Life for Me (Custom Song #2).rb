@@ -184,7 +184,7 @@ sleep 44
 
 sample Outro, amp: 3
 sleep 5
-sample Ending, amp: 2
+sample Ending, amp: 1
 
 
 
