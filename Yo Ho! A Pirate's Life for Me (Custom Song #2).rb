@@ -5,7 +5,7 @@
 #Outro Sample: https://www.youtube.com/watch?v=nY8T0RMs_wU
 #Throwinghat Sample: https://www.youtube.com/watch?v=mCDA-m-TQdU
 #Ending Sample: https://www.youtube.com/watch?v=_5MQabnB5No
-#Oceansound sampe: https://www.youtube.com/watch?v=kxX039DmeEw
+#Oceansound sample: https://www.youtube.com/watch?v=kxX039DmeEw
 
 
 use_bpm 190
@@ -25,107 +25,107 @@ Ending = "C:/Users/tiana_agbekoh/Downloads/ending.mp3"
 
 
 define :main_theme do |x1, x2, x3, x4, x5, x6|
-  play x1
+  play x1, amp: 2
   sleep 1.5
-  play x2
+  play x2, amp: 2
   sleep 1.5
-  play x3
+  play x3, amp: 2
   sleep 1.5
-  play x2
+  play x2, amp: 2
   sleep 1
-  play x4
+  play x4, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 1
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x5
+  play x5, amp: 2
   sleep 1
-  play x5
+  play x5, amp: 2
   sleep 0.5
-  play x6
+  play x6, amp: 2
   sleep 2
 end
 
 define :main_theme2 do |x1, x2, x3, x4|
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 1
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x2
+  play x2, amp: 2
   sleep 1
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x3
+  play x3, amp: 2
   sleep 0.5
-  play x3
+  play x3, amp: 2
   sleep 0.5
-  play x4
+  play x4, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 2
 end
 
 define :main_theme3 do |x1, x2, x3, x4|
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x2
+  play x2, amp: 2
   sleep 0.5
-  play x2
+  play x2, amp: 2
   sleep 0.5
-  play x2
+  play x2, amp: 2
   sleep 0.5
-  play x3
+  play x3, amp: 2
   sleep 0.5
-  play x3
+  play x3, amp: 2
   sleep 0.5
-  play x3
+  play x3, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x1
+  play x1, amp: 2
   sleep 0.5
-  play x4
+  play x4, amp: 2
   sleep 1
 end
 
 
 define :main_theme4 do |x1, x2, x3, x4, x5, x6|
-  play x1
+  play x1, amp: 3
   sleep 0.5
-  play x2
+  play x2, amp: 3
   sleep 1
-  play x3
+  play x3, amp: 3
   sleep 0.5
-  play x3
+  play x3, amp: 3
   sleep 0.5
-  play x4
+  play x4, amp: 3
   sleep 0.5
-  play x5
+  play x5, amp: 2
   sleep 0.5
-  play x6
+  play x6, amp: 2
   sleep 2.5
 end
 
@@ -133,8 +133,8 @@ end
 #---------Music Starts Here-------------------
 
 sample Intro, amp: 5
-sleep 50
 
+sleep 50
 
 4. times do
   sample :bd_boom, amp: num
@@ -142,7 +142,7 @@ sleep 50
   sleep 1
 end
 
-#First Part
+#First Part------------------------------------------
 
 sample Ocean, amp: 0.5
 
@@ -159,19 +159,20 @@ sample Ocean, amp: 0.5
     stop
   end
   
-  #Second part
+  #Second part-----------------------------------------
   
   main_theme2 :A4, :D5, :F4, :G4
   
-  #Third part
+  #Third part--------------------------------------------
   
   main_theme3 :A4, :Bf4, :G4, :F4
   
-  #Fourth part
+  #Fourth part--------------------------------------------
   
   main_theme4 :F4, :E4, :G4, :A4, :Bf4, :C5
   
-  #Fifth part
+  #Fifth part---------------------------------------------
+  
   main_theme :A4, :C5, :D5, :Bf4, :G4, :F4
   
   sleep 2
@@ -183,8 +184,11 @@ sample Throwinghat, amp: 5
 sleep 44
 
 sample Outro, amp: 3
+
 sleep 5
+
 sample Ending, amp: 1
+
 
 
 
